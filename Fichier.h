@@ -19,11 +19,12 @@ class Fichier
         void fermer();
         void ecrire(string texte);
         string lire();
+        string lire1ligne();
 
     protected:
 
     private:
-        ofstream fichier;
+        fstream fichier;
 };
 
 #endif // FICHIER_H
