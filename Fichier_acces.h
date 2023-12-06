@@ -2,6 +2,7 @@
 #define FICHIER_ACCES_H
 
 #include <iostream>
+#include <fstream>
 #include "Fichier.h"
 
 using namespace std;
